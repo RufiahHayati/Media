@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Marbel Islam</string>
+    <string name="logo_desc">App logo</string>
+    <string name="search_hint">Cari</string>
+    <string name="dialog_title_add">Tambah</string>
+    <string name="dialog_message_add">Apa anda ingin tambah ke favorite?</string>
+    <string name="dialog_title_remove">Hapus</string>
+    <string name="dialog_message_remove">Apa anda ingin hapus ke favorite?</string>
+</resources>

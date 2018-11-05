@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".materi">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"/>
+
+    <ImageView
+        android:id="@+id/tvMarbel"
+        style="@style/Base.TextAppearance.AppCompat.Menu"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:src="@drawable/splash"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:weightSum="2" >
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerInside"
+            android:id="@+id/SurahPendek"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:layout_marginRight="40dp"
+            android:background="@android:color/transparent"
+            android:backgroundTint="@android:color/black"
+            android:src="@drawable/surahhhh" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerInside"
+            android:id="@+id/DoaHarian"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:background="@android:color/transparent"
+            android:backgroundTint="@android:color/black"
+            android:src="@drawable/doa" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:weightSum="2" >
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerInside"
+            android:id="@+id/Bookmarks"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:layout_marginRight="40dp"
+            android:background="@android:color/transparent"
+            android:backgroundTint="@android:color/black"
+            android:src="@drawable/book" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerInside"
+            android:id="@+id/Quiz"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:background="@android:color/transparent"
+            android:backgroundTint="@android:color/black"
+            android:src="@drawable/quiz" />
+    </LinearLayout>
+</LinearLayout>
